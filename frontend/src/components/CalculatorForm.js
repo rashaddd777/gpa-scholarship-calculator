@@ -42,11 +42,11 @@ const CalculatorForm = () => {
 
     try {
       // Send data to the backend API
-      const response = await fetch('/api/gpa/calculate', {
+      const response = await fetch('https://my-external-backend.com/api/gpa/calculate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ grades, credits, gender }),
-      });
+      });      
 
       if (!response.ok) {
         throw new Error('Failed to calculate GPA.');
@@ -176,3 +176,4 @@ const CalculatorForm = () => {
 };
 
 export default CalculatorForm;
+
