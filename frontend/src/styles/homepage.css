@@ -1,0 +1,36 @@
+/* src/styles/homepage.css */
+
+/* Overall homepage container */
+.home-page {
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333;
+  padding: 2rem;
+}
+
+/* Header section styles */
+.home-page__header {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.home-page__header h1 {
+  font-size: 2.5rem;
+  color: #3b6ea5; /* A blue tone matching your header gradient */
+  margin-bottom: 1rem;
+}
+
+.home-page__header p.lead {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+/* Main content styles */
+.home-page__main {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}

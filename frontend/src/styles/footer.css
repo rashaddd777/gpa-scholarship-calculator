@@ -1,0 +1,33 @@
+/* src/styles/footer.css */
+
+.footer {
+    background: #f8f9fa;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Or your preferred font */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .footer__text {
+    color: #666;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  /* Add styling for the mailto links if desired */
+  .footer__link {
+    color: #3b6ea5;
+    text-decoration: none;
+    margin-left: 0.3rem;
+  }
+  
+  .footer__link:hover {
+    text-decoration: underline;
+  }
+  

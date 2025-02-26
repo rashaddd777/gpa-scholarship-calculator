@@ -1,0 +1,34 @@
+# GPA & Scholarship Eligibility Calculator Backend
+
+This backend project provides the API for a GPA & Scholarship Eligibility Calculator designed for ADA University students. It calculates a student's GPA based on letter grades and course credits and determines scholarship eligibility based on defined criteria.
+
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Setup Instructions](#setup-instructions)
+- [API Endpoints](#api-endpoints)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **GPA Calculation:** Computes weighted GPA from letter grades and corresponding course credits.
+- **Scholarship Eligibility:** Determines if the calculated GPA meets the threshold for scholarship eligibility.
+- **Error Handling:** Provides meaningful error messages for invalid inputs.
+- **Open Source:** Built for collaborative development and future enhancements.
+
+## Tech Stack
+
+- **Backend Framework:** Node.js with Express
+- **Database:** Optional (configured for MongoDB connection)
+- **Testing:** Jest and Supertest
+
+## Setup Instructions
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/gpa-scholarship-calculator.git
+   cd gpa-scholarship-calculator/backend

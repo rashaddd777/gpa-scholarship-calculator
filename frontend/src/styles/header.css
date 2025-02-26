@@ -1,0 +1,54 @@
+/* src/styles/header.css */
+
+/* 1. Import a Google Font (Poppins, for example) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  /* Keep the existing gradient */
+  background: linear-gradient(90deg, #f2d184 0%, #3b6ea5 100%);
+  font-family: 'Poppins', sans-serif; /* Use the imported font */
+}
+
+/* Logo & Title Section */
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__logo-image {
+  height: 40px; /* Adjust if you want a smaller/larger logo */
+  width: auto;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 1.8rem; /* Slightly larger than before */
+  font-weight: 700;  /* Bold text */
+}
+
+/* Make the title clickable */
+.header__title-link {
+  text-decoration: none;
+  color: #0c0101;        /* White text over gradient */
+  transition: color 0.2s ease-in-out;
+}
+
+.header__title-link:hover {
+  color: #eee;        /* Slightly lighter on hover */
+}
+
+/* Dropdown Section */
+.header__calculator {
+  margin-left: auto;  /* Push the dropdown to the far right if desired */
+}
+
+.dropdown-toggle {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  /* Optionally, tweak colors here or let Bootstrap defaults stand */
+}
